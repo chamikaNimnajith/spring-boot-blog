@@ -1,0 +1,28 @@
+/* Light mode */
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #0072f5;
+  --secondary: #7828c8;
+  --card-bg: #f4f4f5;
+  --text-default: #3f3f46;
+}
+
+/* Dark mode */
+.dark {
+  --background: #121212;
+  --foreground: #ffffff;
+  --primary: #0072f5;
+  --secondary: #9353d3;
+  --card-bg: #1e1e1e;
+  --text-default: #e4e4e7;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  
+}
+
+/* NextUI components will automatically adapt to dark mode */
